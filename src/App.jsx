@@ -1,11 +1,14 @@
-import {Card} from 'bootstrap'
+import Playerlist from './playerList'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <Card/>
+      <div className='app'>
+        <h1>FIFA Player Card</h1>
+        <Playerlist/>
+      </div>
     </>
   )
 }
